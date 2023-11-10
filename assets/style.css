@@ -1,0 +1,11 @@
+.footer {
+  background-color: black;
+}
+.footer .prhase-footer {
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
