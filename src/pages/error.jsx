@@ -1,12 +1,16 @@
-
 import React from 'react';
+import Header from'../components/header'
+import Footer from '../components/footer'
+import Error from '../components/error';
 
-function Error() {
-    return (
-        <div>
-              <h1>Oups 🙈 Cette page n'existe pas</h1>
-        </div>
-    )
+const error = () => {
+  return (
+    <div>
+          <Header />
+          <Error />
+      <Footer />
+    </div>
+  );
 }
 
-export default Error
+export default error;
