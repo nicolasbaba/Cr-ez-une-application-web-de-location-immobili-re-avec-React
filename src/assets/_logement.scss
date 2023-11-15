@@ -14,9 +14,14 @@
     overflow: auto;
 
     h3 {
-      display: flex;
-      justify-content: last baseline;
       color: white;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 142.6%;
+      /* 25.668px */
+      margin-top:290px;
     }
   }
 
@@ -36,3 +41,4 @@
     scrollbar-color: transparent transparent;
   }
 }
+

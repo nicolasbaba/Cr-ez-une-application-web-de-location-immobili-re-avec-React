@@ -71,9 +71,14 @@
   overflow: auto;
 }
 .logement .cartes-logement h3 {
-  display: flex;
-  justify-content: last baseline;
   color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  /* 25.668px */
+  margin-top: 290px;
 }
 .logement .carte {
   width: 340px;
@@ -95,12 +100,14 @@
   align-items: center;
   flex-direction: column;
 }
-.container-all-collapse collapse-container {
+
+.collapse-container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.container-all-collapse .collapse-header {
+
+.collapse-header {
   width: 1013px;
   height: 40px;
   border-radius: 5px;
@@ -113,17 +120,33 @@
   font-weight: 500;
   line-height: 34.224px;
   padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.container-all-collapse .collapse-content p {
+
+.collapse-header img {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+.rotate-180 {
+  transform: rotate(-180deg);
+}
+
+.collapse-content p {
   width: 1023px;
+  height: 100%;
   font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
   line-height: 34.224px;
   color: #FF6060;
   display: flex;
-  justify-content: center;
 }
 
 .error {
